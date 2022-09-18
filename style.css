@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(33, 25, 41);
+    border: none;
+    
+    color: whitesmoke;
+    font-size: 22px;
+    
+}
+
+select :placeholder-shown{
+    padding-left: 25%;
+    
+
+}
+main{
+    text-align: center
+}
+
+
+
+
+label{
+    padding-left: 1%;
+    
+    
+    color: black;
+}
+
+select{
+    width: 1000px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+button{
+    color: white;
+    width: 1000px;
+
+    background-color: blue;
+    border: blue;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+strong{
+    color: white;
+}
+
+input{
+    color: white;
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(179, 69, 87);
+    border: 5px solid  rgb(179, 69, 87);
+    border-radius: 15px;
+
+}
+
+h1{
+    text-indent: 5%;
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+label{
+    color: whitesmoke;
+}
+
+select{
+    width: 1000px;
+    height: 70px;
+    background-color:rgb(179, 69, 87) ;
+    color: whitesmoke;
+    text-align: center;
+}
+:placeholder-shown{
+    text-align: center;
+    color: white;
+}
+
+
+

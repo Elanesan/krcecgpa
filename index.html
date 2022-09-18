@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Elanesan">
+    <meta name="description" content="Used to calculate CGPA">
+    <title>CGPA KRCE CALCULATOR</title>
+    <link rel="icon" href="neshlogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <h1>K.RAMAKRISHNAN COLLEGE OF ENGINEERING </h1>
+    <h2>(Autonomous)</h2>
+
+    <h2>TRICHY</h2>
+
+    <h2>CGPA CALCULATOR(semester-2)</h2>
+
+    <script>
+        function myfun()
+        {
+            var a=parseInt(document.getElementById('english').value);
+            var b=parseInt(document.getElementById('maths').value);
+            var c=parseInt(document.getElementById('physics').value);
+            var d=parseInt(document.getElementById('evs').value);
+            var e=parseInt(document.getElementById('eg').value);
+            var f=parseInt(document.getElementById('cp').value);
+            var g=parseInt(document.getElementById('bee').value);
+            var h=parseInt(document.getElementById('cpl').value);
+            var i=parseInt(document.getElementById('ps').value);
+            var j=parseFloat(document.getElementById('number').value);
+
+            document.getElementById('result').innerHTML=((((a*3)+(b*4)+(c*3)+(i*1)+(h*2)+(d*3)+(e*3)+(f*3)+(g*3))/25)+j)/2;
+
+        }
+    </script>
+    
+    <main>
+        <fieldset>
+                    
+            <label for="regnumber">REGISTER NUMBER</label>
+            <input type="text" name="regnumber" id="firstName" placeholder="8115U21AA011" autocomplete="on" required autofocus>
+
+            <br><br>
+
+        
+        
+            
+            
+            
+            <p>
+                <label for="department">DEPARTMENT  </label>
+                <select name="department" id="" placeholder="Select" required>
+                    
+                        <option value="am">AI&ML</option>
+                        <option value="ad">AIDS</option>
+                        <option value="cs">CSE</option>
+                        <option value="it">IT</option>
+                        <option value="ec">ECE</option>
+                        <option value="ee">EEE</option>
+                        <option value="me">MECH</option>
+                    
+        
+                    
+                </select>
+            </p><br><br> 
+
+            <p>
+                <label for="sem1">ENTER FIRST SEMESTER GPA</label>
+                <input type="number" value="" id="number">
+            </p>
+            <br><br>
+            
+            <p>
+                <label for="english">UHS1251(TECHNICAL ENGLISH-II)  </label>
+                <select name="english" id="english" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+
+            <p>
+                <label for="maths">UMA1251(MATHEMATICS-II)  </label>
+                <select name="maths" id="maths" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="physics">UPH1251(ENGINEERING PHYSICS-II)  </label>
+                <select name="physics" id="physics" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="evs">UGE1251(ENVIRONMENTAL SCIENCE AND ENGINEERING)  </label>
+                <select name="evs" id="evs" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="cp">UGE1252(C PROGRAMMING)  </label>
+                <select name="cp" id="cp" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="eg">UGE1253(ENGINEERING GRAPHICS)  </label>
+                <select name="eg" id="eg" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="ps">UHS1252(PROFESSIONAL SKILLS-I)  </label>
+                <select name="ps" id="ps" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="bee">UBE1261(BASIC ELECTRICAL AND ELECTRONICS ENGINEERING)  </label>
+                <select name="bee" id="bee" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                    
+        
+                    
+                </select>
+
+            </p><br><br>
+            <p>
+                <label for="cpl">UGE1261(C PROGRAMMING LABORATORY)  </label>
+                <select name="cpl" id="cpl" placeholder="Your Grade" required>
+                    
+                        <option value="10">O</option>
+                        <option value="9">A+</option>
+                        <option value="8">A</option>
+                        <option value="7">B+</option>
+                        <option value="6">B</option>
+                        <option value="5">C</option>
+                        <option value="0">U(AR)</option>
+                        <option value="0">WH</option>
+                        
+
+                    
+        
+                   
+                </select>
+
+            </p><br><br>
+            <input style="color:white; background-color: rgb(202, 83, 103) ; width: 200px;" type="button" value="GET" onclick=" return myfun()">
+
+            
+
+            <br><br><br>
+
+
+            <h2  style="color: white;" ><strong>YOUR CGPA IS:<span id="result"></span></strong>    </h2>
+
+            
+
+           
+
+            
+
+
+
+        
+    
+    
+            
+           
+    </main>  
+    
+    
+    <br><br><br><br><br>
+
+
+    <p style="color: white ; font-size: 10px; text-align: center;">2022 &copy; DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING</p>
+
+    
+    
+
+    
+
+
+   
+
+
+
+
+
+</body>
+</html>
+
+
+
